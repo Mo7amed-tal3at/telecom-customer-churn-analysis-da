@@ -29,3 +29,22 @@ Insights and recommendations are provided on the following key areas:
 
   - The machine learning implementation for churn prediction can be accessed [**here**](https://github.com/Mo7amed-tal3at/telecom-customer-churn-analysis-da/blob/main/MLModel.ipynb).
  
+
+
+## Data Structure 
+  -  Below is an image that shows the structure of the data and the relation among entities
+    -  ![image](https://github.com/user-attachments/assets/f115c977-527f-4ce7-91ce-fe24931b63d9)
+
+## Executive Summary
+
+### Overview of findings
+   
+
+- The **Kashmir** region has the highest churn rate at **57%**, indicating a critical area for customer retention efforts.
+- Customers subscribed to **Fiber Optic internet** are more likely to churn compared to those using Cable internet.
+- A significant portion of customers churn due to **better services offered by competitors**.
+- Churn was significantly higher among customers subscribed to **Phone Services**, **Internet Services**, and those with **Unlimited Data** plans. This suggests that core service experiences may play a major role in customer decisions to leave.
+- The **attitude of support personnel** was identified as the **second most common reason** for customer churn, highlighting the importance of customer service quality in customer retention.
+
+
+
