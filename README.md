@@ -45,7 +45,9 @@ Insights and recommendations are provided on the following key areas:
 - A significant portion of customers churn due to **better services offered by competitors**.
 - Churn was significantly higher among customers subscribed to **Phone Services**, **Internet Services**, **Papperless Billing**, and those with **Unlimited Data** plans. This suggests that core service experiences may play a major role in customer decisions to leave.
 - The **attitude of support personnel** was identified as the **second most common reason** for customer churn, highlighting the importance of customer service quality in customer retention.
+- A machine learning model predicted that **376 customers are likely to churn**, with the majority located in **Uttar Pradesh**, **Maharashtra**, **Tamil Nadu**, and **Karnataka**. Most of these high-risk customers use **Credit Card** and **Bank Withdrawal** as their payment methods.
 
+  
 Below is the **Overview Page** from PowerBI dashboard. The entire interactive dashboard can be downloaded [here](https://github.com/Mo7amed-tal3at/telecom-customer-churn-analysis-da/blob/main/Churn%20Analysis%20Dashboard.pbix)
 
   - ![image](https://github.com/user-attachments/assets/024ffa59-d207-4cde-b4c6-73edac5abe56)
@@ -86,6 +88,24 @@ This section presents a detailed breakdown of the key insights extracted from th
     
   - ### *interpretation*: The conflict between digital convenience and customer preferences highlights the need for personalized billing strategies that match the demographic profile of each segment.
 
+### 🤖 Churn Prediction Model
+
+To enhance the analysis, a machine learning classification model was developed to predict which customers are most likely to churn.
+
+- The data was preprocessed by encoding categorical variables, handling missing values, and scaling numerical features.
+- A Random Forest model was trained on the cleaned dataset.
+
+🧠 **Prediction Outcome:**
+- The model predicted **376 customers are likely to churn**.
+- Most of these high-risk customers are located in:
+  - **Uttar Pradesh**
+  - **Maharashtra**
+  - **Tamil Nadu**
+  - **Karnataka**
+
+- The majority of them use **Credit Card** and **Bank Withdrawal** as their payment methods.
+
+✅ These predictions can help the company take proactive steps to retain valuable customers before they leave, by targeting them with personalized offers, surveys, or improved service.
 
 ---
 
@@ -125,4 +145,12 @@ Based on the analysis, the following recommendations are proposed to help reduce
 
 7. **Benchmark Against Competitors**  
    - Investigate why customers perceive competitor services or devices as better, and address these gaps through service improvements or updated offerings.
+     
+8. **Act on Predicted High-Risk Customers**
+   - The machine learning model identified **376 customers** who are likely to churn. Most of them are located in **Uttar Pradesh**, **Maharashtra**, **Tamil Nadu**, and **Karnataka**, and use **Credit Card** or **Bank Withdrawal** payment methods.  
+   - These customers should be **proactively targeted** with:
+     - Personalized offers or loyalty rewards  
+     - Feedback forms or satisfaction surveys  
+     - Dedicated support follow-ups  
 
+   Engaging with these users before churn happens can significantly improve retention and reduce revenue loss.
