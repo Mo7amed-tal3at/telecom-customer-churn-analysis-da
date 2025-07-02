@@ -81,7 +81,7 @@ This section presents a detailed breakdown of the key insights extracted from th
 - Older customers and unmarried individuals showed slightly higher churn tendencies.
 - These groups may struggle with paperless billing or be more price-sensitive or responsive to promotions and competitor incentives.
   
-## 💳 Payment Method & Paperless Billing
+### 💳 Payment Method & Paperless Billing
   - Customers who used credit cards or digital payment methods had lower churn rates, suggesting that convenient payment options help with customer retention.
   - However, Paperless Billing users had a surprisingly high churn rate — around 80% of them left the service.
   - This may be explained by the fact that a large portion of the customer base opting for paperless billing were over the age of 50, a group that might prefer traditional paper billing or find digital communication less accessible.
